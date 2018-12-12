@@ -1,0 +1,48 @@
+{
+  "npmScope": "myorg",
+  "implicitDependencies": {
+    "angular.json": "*",
+    "package.json": "*",
+    "tsconfig.json": "*",
+    "tslint.json": "*",
+    "nx.json": "*"
+  },
+  "projects": {
+    "mega-main": {
+      "tags": []
+    },
+    "mega-main-e2e": {
+      "tags": []
+    },
+    "home": {
+      "tags": []
+    },
+    "card": {
+      "tags": []
+    },
+    "isolate-home": {
+      "tags": []
+    },
+    "isolate-home-e2e": {
+      "tags": []
+    },
+    "isolate-card": {
+      "tags": []
+    },
+    "isolate-card-e2e": {
+      "tags": []
+    },
+    "shared-bundles-card": {
+      "tags": []
+    },
+    "shared-bundles-card-e2e": {
+      "tags": []
+    },
+    "shared-bundles-home": {
+      "tags": []
+    },
+    "shared-bundles-home-e2e": {
+      "tags": []
+    }
+  }
+}
