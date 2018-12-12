@@ -1,0 +1,17 @@
+{
+  "hosting": {
+    "public": "dist/apps",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [{
+      "source": "/mega/main/card",
+      "destination": "/mega/main/index.html"
+    },{
+      "source": "/shared-bundles/home/card",
+      "destination": "/shared-bundles/home/index.html"
+    }]
+  }
+}
